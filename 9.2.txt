@@ -1,0 +1,21 @@
+//strcmp
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+	char word1[30], word2[30];
+	int num;
+	cout << "WORDS COMPARE" << endl;
+	cout << "Enter Word 1: " << endl;
+	cin >> word1;
+	cout << "Enter Word 2: " << endl;
+	cin >> word2;
+	num = strcmp(word1, word2);
+	if (num == 0){
+		cout << "The Words Are Same.";
+	} else {
+		cout << "The Words Are Different";
+	}
+}

@@ -1,0 +1,33 @@
+nested:
+#include <iostream>
+using namespace std;
+
+int main() {
+  int age;
+  char gender;
+
+  cout << "Enter your age: ";
+  cin >> age;
+  cout << "Enter your gender (M/F): ";
+  cin >> gender;
+
+  if (age >= 18) {
+    if (gender == 'M' || gender == 'm') {
+      cout << "You are a male adult." << endl;
+    } else if (gender == 'F' || gender == 'f') {
+      cout << "You are a female adult." << endl;
+    } else {
+      cout << "Invalid gender input." << endl;
+    }
+  } else {
+    if (gender == 'M' || gender == 'm') {
+      cout << "You are a male minor." << endl;
+    } else if (gender == 'F' || gender == 'f') {
+      cout << "You are a female minor." << endl;
+    } else {
+      cout << "Invalid gender input." << endl;
+    }
+  }
+
+  return 0;
+}

@@ -1,0 +1,12 @@
+//strlen
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+	char pass[50];
+	cout << "Enter Your Name (Without Spaces): ";
+	cin >> pass;
+	cout << "Your Name Has " << strlen(pass) << " Characters.";
+}

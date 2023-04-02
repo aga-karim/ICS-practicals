@@ -1,0 +1,13 @@
+//strcpy
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+	char pass1[20], pass2[20];
+	cout << "PASSWORD BACKUP" << endl;
+	cin >> pass1;
+	strcpy(pass2, pass1);
+	cout << "Your Password is Backed Up & Stored in pass2 Variable.";
+}

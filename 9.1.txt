@@ -1,0 +1,16 @@
+//strcat
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+	char fname[25], lname[25];
+	cout << "Full Name Joiner" << endl;
+	cout << "Enter Your First Name: ";
+	cin >> fname;
+	cout << "Enter Your Last Name: ";
+	cin >> lname;
+	strcat(fname, lname);
+	cout << "Your Full Name Is: " << fname;
+}
