@@ -22,11 +22,11 @@ int main(){
 	School student1;
 	School student2;
 	
-	student1.name = "Naveed";
+	student1.name = "Agha";
 	student1.classs = 12;
 	student1.section = 'A';
 	
-	student2.name = "Ahmed";
+	student2.name = "naveed";
 	student2.classs = 11;
 	student2.section = 'B';
 	
